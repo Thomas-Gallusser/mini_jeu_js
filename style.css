@@ -1,0 +1,63 @@
+#board{
+  width: 600px;
+  height: 600px;
+  background-color: #333333;
+  position: relative;
+}
+
+#token{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: url('img/troll face.png');
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+
+#food{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  background: url('img/trump f1.png');
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+
+#temps{
+  right: 10px;
+  position:absolute;
+  color:white;
+}
+#score{
+  left: 10px;
+  position:absolute;
+  color:white;
+}
+#replay{
+  border-radius:20px;
+  margin-top:5px;
+  padding:5px 15px 5px 15px;
+  border: 0px;
+  text-decoration: none;
+  color:black;
+  background-color:#eb7a00;
+  font-weight: bold;
+}
+
+#finish{
+  background-color: white;
+  padding: 15px;
+  border-radius:25px;
+  margin: 0px !important;
+  top: 40%;
+  left: 40%;
+  color:#0055FF;
+  font-weight:bold;
+  display:none;
+  position:absolute;
+  text-align:center;
+}
